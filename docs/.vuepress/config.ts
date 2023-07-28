@@ -23,6 +23,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     themeConfig: {
         nav: nav, //导航栏
         logo: '/logo.png', //导航栏logo
+        bodyBgImg: '/images/OIP-C.jpg',
         repo: 'sugar258596/sugar258596.github.io', // 导航栏右侧生成Github链接
         // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | <自定义>    
         // 温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
